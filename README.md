@@ -1,70 +1,219 @@
-# Getting Started with Create React App
+# :rocket: Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-  Number members: 4
+-  Project name: Phuong Trang Website - Client Customer Site Booking Tickets
+-  Description: This project is a website clone of Phuong Trang website. It is a graduation thesis project of the group.
+-  Development tools Front-End:
 
-## Available Scripts
+   <span><img src="https://img.shields.io/badge/JavaScript-282C34?logo=javascript&logoColor=F7DF1E" alt="JavaScript logo" title="JavaScript" height="25" /></span>
+   &nbsp;
+   <span><img src="https://img.shields.io/badge/TypeScript-282C34?logo=typescript&logoColor=3178C6" alt="TypeScript logo" title="TypeScript" height="25" /></span>
+   &nbsp;
+   <span><img src="https://img.shields.io/badge/ReactJS-282C34?logo=react&logoColor=61DAFB" alt="ReactJS logo" title="ReactJS" height="25" /></span>
+   &nbsp;
+   <span><img src="https://img.shields.io/badge/Redux-282C34?logo=redux&logoColor=764ABC" alt="Redux logo" title="Redux" height="25" /></span>
+   &nbsp;
+   <span><img src="https://img.shields.io/badge/Tailwind%20CSS-282C34?logo=tailwind-css&logoColor=38B2AC" alt="TailwindCSS logo" title="TailwindCSS" height="25" /></span>
+   &nbsp;
+   <span><img src="https://img.shields.io/badge/HTML5-282C34?logo=html5&logoColor=E34F26" alt="HTML5 logo" title="HTML5" height="25" /></span>
+   &nbsp;
+   <span><img src="https://img.shields.io/badge/CSS3-282C34?logo=css3&logoColor=1572B6" alt="CSS3 logo" title="CSS3" height="25" /></span>
+   &nbsp;
+   <span><img src="https://img.shields.io/badge/Sass-282C34?logo=sass&logoColor=CC6699" alt="SASS logo" title="SASS" height="25" /></span>
+   &nbsp;
+   <span><img src="https://img.shields.io/badge/Bootstrap-282C34?logo=bootstrap&logoColor=7952B3" alt="Bootstrap logo" title="Bootstrap" height="25" /></span>
 
-In the project directory, you can run:
+-  NPM packages:
+   -  [axios](https://www.npmjs.com/package/axios)
+   -  [react](https://www.npmjs.com/package/react)
+   -  [react-dom](https://www.npmjs.com/package/react-dom)
+   -  [react-redux](https://www.npmjs.com/package/react-redux)
+   -  [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+   -  [redux](https://www.npmjs.com/package/redux)
+   -  [tailwindcss](https://www.npmjs.com/package/tailwindcss)
+   -  [bootstrap](https://www.npmjs.com/package/bootstrap)
+   -  [web-vitals](https://www.npmjs.com/package/web-vitals)
+   -  [react-scripts](https://www.npmjs.com/package/react-scripts)
+-  Members:
+   -  [Văn Phú](https://github.com/vanphudev) - Leader
+   -  [Thanh Thúy](https://github.com/thuyptt610) - Member
+   -  [Thanh Thủy](https://github.com/pthanhthuy95) - Member
+   -  [Ngọc Toàn](https://github.com/pthanhthuy95) - Member
+-  Information Members:
+   | STT | Name Member | MSSV | Email | Github |
+   |-----|-------------|------|-------|--------|
+   | 1 | Nguyễn Văn Phú | 2001216041 | vuonggiaphu.pct@gmail.com |<a href="https://github.com/vanphudev"><img src="https://img.shields.io/badge/vanphudev-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
+   | 2 | Phạm Thị Thanh Thúy | 2001216196 | thanhthuy0983860756@gmail.com |<a href="https://github.com/thuyptt610"><img src="https://img.shields.io/badge/thuyptt610-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
+   | 3 | Phạm Thị Thanh Thủy | 2001216195 | pthithanhthuy59@gmail.com |<a href="https://github.com/pthanhthuy95"><img src="https://img.shields.io/badge/pthanhthuy95-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
+   | 4 | Trần Ngọc Toàn | 2001216225 | toantran02bt@gmail.com |<a href="https://github.com/TranNgocToan02"><img src="https://img.shields.io/badge/TranNgocToan02-282C34?logo=github&logoColor=FFFFFF" alt="git logo" title="github" height="35" /></a>|
 
-### `npm start`
+## :ledger: Index
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-  [About](#beginner-about)
+-  [Usage](#zap-usage)
+   -  [Installation](#electric_plug-installation)
+   -  [Commands](#package-commands)
+-  [Development](#wrench-development)
+   -  [Pre-Requisites](#notebook-pre-requisites)
+   -  [Developmen Environment](#nut_and_bolt-development-environment)
+   -  [File Structure](#file_folder-file-structure)
+   -  [Build](#hammer-build)
+   -  [Deployment](#rocket-deployment)
+-  [Community](#cherry_blossom-community)
+   -  [Contribution](#fire-contribution)
+   -  [Branches](#cactus-branches)
+   -  [Guideline](#exclamation-guideline)
+-  [FAQ](#question-faq)
+-  [Resources](#page_facing_up-resources)
+-  [Gallery](#camera-gallery)
+-  [Credit/Acknowledgment](#star2-creditacknowledgment)
+-  [License](#lock-license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :beginner: About
 
-### `npm test`
+-  This project is a website clone of Phuong Trang website. It is a graduation thesis project of the group.
+-  The project is built with ReactJS, Redux, ...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :zap: Usage
 
-### `npm run build`
+> [!NOTE]\
+> We will update the information again.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### :electric_plug: Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-  Steps on how to install this project, to use it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+$ git clone https://github.com/vanphudev/website_phuongtrang_graduation_thesis.git
+$ cd website_phuongtrang_graduation_thesis
+$ npm install
+$ npm start
+```
 
-### `npm run eject`
+### :package: Commands
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> [!NOTE]\
+> We will update the information again.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :wrench: Development
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> [!NOTE]\
+> We will update the information again.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### :notebook: Pre-Requisites
 
-## Learn More
+> [!NOTE]\
+> We will update the information again.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### :nut_and_bolt: Development Environment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-  Clone the project to your local machine
+   ```
+   $ git clone https://github.com/vanphudev/website_phuongtrang_graduation_thesis.git
+   ```
+-  How to install dependencies...
+   -  `cd project`
+   -  `npm install`
+-  How to run the project...
+   -  `cd project`
+   -  `npm start`
+-  How to build the project...
+   -  `cd project`
+   -  `npm build`
 
-### Code Splitting
+### :file_folder: File Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-  File Structure of the project is as follows:
 
-### Analyzing the Bundle Size
+```
+website_phuongtrang_clone/
+├── node_modules/
+├── public/
+│   ├── icons/
+│   └── index.html
+├── src/
+│   ├── api/
+│   ├── assets/
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
+│   ├── redux/
+│   ├── resources/
+│   ├── routes/
+│   ├── services/
+│   ├── styles/
+│   ├── utils/
+│   ├── App.js
+│   └── index.js
+├── .env
+├── .gitignore
+├── package-lock.json
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### :hammer: Build
 
-### Making a Progressive Web App
+> [!NOTE]\
+> We will update the information again.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### :rocket: Deployment
 
-### Advanced Configuration
+> [!NOTE]\
+> We will update the information again.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## :cherry_blossom: Community
 
-### Deployment
+> [!NOTE]\
+> We will update the information again.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### :fire: Contribution
 
-### `npm run build` fails to minify
+> [!NOTE]\
+> We will update the information again.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### :cactus: Branches
+
+1. **`main`** is the production branch.
+
+2. **`staging`** is the staging branch.
+
+3. **`dev`** is the development branch.
+
+4. **`phu`** is the feature branch.
+
+5. **`thuyy`** is the feature branch.
+
+6. **`thuy`** is the feature branch.
+
+7. **`toan`** is the feature branch.
+
+### :exclamation: Guideline
+
+> [!NOTE]\
+> We will update the information again.
+
+## :question: FAQ
+
+> [!NOTE]\
+> We will update the information again.
+
+## :page_facing_up: Resources
+
+> [!NOTE]\
+> We will update the information again.
+
+## :camera: Gallery
+
+> [!NOTE]\
+> We will update the information again.
+
+## :star2: Credit/Acknowledgment
+
+> [!NOTE]\
+> We will update the information again.
+
+## :lock: License
+
+> [!NOTE]\
+> We will update the information again.
