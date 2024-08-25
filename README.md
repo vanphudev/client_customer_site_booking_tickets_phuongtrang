@@ -1,5 +1,7 @@
 # :rocket: Introduction
 
+-  Update
+
 -  Number members: 4
 -  Project name: Phuong Trang Website - Client Customer Site Booking Tickets
 -  Description: This project is a website clone of Phuong Trang website. It is a graduation thesis project of the group.
