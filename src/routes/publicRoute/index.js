@@ -19,6 +19,7 @@ const PublicRoutes = [
          {
             index: true,
             element: <Home />,
+           
          },
          {
             path: process.env.REACT_APP_PAGE_PATH_HOME_INDEX,
@@ -33,7 +34,8 @@ const PublicRoutes = [
             element: <AboutUs />,
          },
          {
-            path: process.env.REACT_APP_PAGE_PATH_SCHEDULE,
+           //path: process.env.REACT_APP_PAGE_PATH_SCHEDULE,
+           path: '/Schedule',
             element: <Schedule />,
          },
          {
