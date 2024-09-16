@@ -11,8 +11,8 @@ const HeaderComponent = () => {
     { name: 'SCHEDULE', path: '/Schedule' },
     { name: 'MANAGE BOOKING', path: process.env.REACT_APP_PAGE_PATH_BOOKING_TICKET_MANAGER },
     { name: 'NEWS', path: process.env.REACT_APP_PAGE_PATH_NEWS },
-    { name: 'INVOICE', path: process.env.REACT_APP_PAGE_PATH_INVOICE },
-    { name: 'CONTACT', path: process.env.REACT_APP_PAGE_PATH_CONTACT }, 
+    { name: 'INVOICE', path: '/Invoice'},
+    { name: 'CONTACT', path: '/Contact' }, 
     { name: 'ABOUT US', path: process.env.REACT_APP_PAGE_PATH_ABOUT_US },
   ];
 
@@ -21,8 +21,8 @@ const HeaderComponent = () => {
     { name: 'LỊCH TRÌNH', path: '/Schedule' },
     { name: 'TRA CỨU VỀ', path: process.env.REACT_APP_PAGE_PATH_BOOKING_TICKET_MANAGER },
     { name: 'TIN TỨC', path: process.env.REACT_APP_PAGE_PATH_NEWS },
-    { name: 'HÓA ĐƠN', path: process.env.REACT_APP_PAGE_PATH_INVOICE },
-    { name: 'LIÊN HỆ', path: process.env.REACT_APP_PAGE_PATH_CONTACT }, 
+    { name: 'HÓA ĐƠN', path: '/Invoice'},
+    { name: 'LIÊN HỆ', path: '/Contact' }, 
     { name: 'VỀ CHÚNG TÔI', path: process.env.REACT_APP_PAGE_PATH_ABOUT_US },
   ];
 
@@ -126,7 +126,7 @@ const HeaderComponent = () => {
   const menuItems = value1.value === 'vietnam' ? arr2 : arr;
 
   return (
-    <WrapperHeader gutter={20}>
+    <WrapperHeader gutter={20} >
       <Col span={9} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'transparent' }}>
         <WrapperStyleCombobox>
          <WrapperTextCombobox>
@@ -184,9 +184,9 @@ const HeaderComponent = () => {
         ))}
       </WrapperTypeRow>
 
-      <WrapperTypeImg>
+      {/* <WrapperTypeImg>
         <img src="https://cdn.futabus.vn/futa-busline-web-cms-prod/web_ca16250b69/web_ca16250b69.png" alt="Image" />
-      </WrapperTypeImg>
+      </WrapperTypeImg> */}
     </WrapperHeader>
   );
 }

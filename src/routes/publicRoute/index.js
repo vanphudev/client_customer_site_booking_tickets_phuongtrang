@@ -5,7 +5,9 @@ import Home from "../../pages/home";
 import AboutUs from "../../pages/ve-chung-toi";
 import Schedule from "../../pages/lich-trinh";
 import Invoice from "../../pages/tra-cuu-hoa-don";
+import AuthenticationInvoice from "../../pages/xac-thuc-hoa-don";
 import BookingTicketManager from "../../pages/tra-cuu-ve";
+import Contact from "../../pages/lien-he";
 import News from "../../pages/tin-tuc";
 import BookingTicket from "../../pages/dat-ve";
 import Payment from "../../pages/thanh-toan";
@@ -15,11 +17,12 @@ const PublicRoutes = [
    {
       path: process.env.REACT_APP_PAGE_PATH_HOME_FIRST,
       element: <LayoutDashboard />,
+     //element: <LayoutInvoice />,
       children: [
          {
             index: true,
-            element: <Home />,
-           
+           element: <Home />,
+          element: <Invoice />,
          },
          {
             path: process.env.REACT_APP_PAGE_PATH_HOME_INDEX,
@@ -39,9 +42,20 @@ const PublicRoutes = [
             element: <Schedule />,
          },
          {
-            path: process.env.REACT_APP_PAGE_PATH_INVOICE,
+           // path: process.env.REACT_APP_PAGE_PATH_INVOICE,
+           path: '/Invoice',
             element: <Invoice />,
          },
+         {
+            // path: process.env.REACT_APP_PAGE_AuthenticationInvoice,
+            path: '/AuthenticationInvoice',
+             element: <AuthenticationInvoice/>,
+          },
+          {
+            // path: process.env.REACT_APP_PAGE_PATH_Contact,
+            path: '/Contact',
+             element: <Contact/>,
+          },
          {
             path: process.env.REACT_APP_PAGE_PATH_BOOKING_TICKET_MANAGER,
             element: <BookingTicketManager />,
