@@ -71,31 +71,31 @@ const Footer = () => {
                     </div>
 
                     <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-    <div className="footer__widget">
-        <div className="footer__widget__sections">
-            <div className="footer__widget__section">
-                <h6>FUTA Bus Lines</h6>
-                <ul>
-                    <li><Link to="">Về chúng tôi</Link></li>
-                    <li><Link to="">Lịch trình</Link></li>
-                    <li><Link to="">Tuyển dụng</Link></li>
-                    <li><Link to="">Tin tức & Sự kiện</Link></li>
-                    <li><Link to="">Mạng lưới văn phòng</Link></li>
-                </ul>
-            </div>
-            <div className="footer__widget__section">
-                <h6>Hỗ trợ</h6>
-                <ul>
-                    <li><Link to="">Tra cứu thông tin đặt vé</Link></li>
-                    <li><Link to="">Điều khoản sử dụng</Link></li>
-                    <li><Link to="">Câu hỏi thường gặp</Link></li>
-                    <li><Link to="">Hướng dẫn đặt vé trên Web</Link></li>
-                    <li><Link to="">Hướng dẫn nạp tiền trên app</Link></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
+                        <div className="footer__widget">
+                            <div className="footer__widget__sections">
+                                <div className="footer__widget__section">
+                                    <h6>FUTA Bus Lines</h6>
+                                    <ul>
+                                        <li><Link to="">Về chúng tôi</Link></li>
+                                        <li><Link to="">Lịch trình</Link></li>
+                                        <li><Link to="">Tuyển dụng</Link></li>
+                                        <li><Link to="">Tin tức & Sự kiện</Link></li>
+                                        <li><Link to="">Mạng lưới văn phòng</Link></li>
+                                    </ul>
+                                </div>
+                                <div className="footer__widget__section">
+                                    <h6>Hỗ trợ</h6>
+                                    <ul>
+                                        <li><Link to="">Tra cứu thông tin đặt vé</Link></li>
+                                        <li><Link to="">Điều khoản sử dụng</Link></li>
+                                        <li><Link to="">Câu hỏi thường gặp</Link></li>
+                                        <li><Link to="">Hướng dẫn đặt vé trên Web</Link></li>
+                                        <li><Link to="">Hướng dẫn nạp tiền trên app</Link></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div className="footer__Link">

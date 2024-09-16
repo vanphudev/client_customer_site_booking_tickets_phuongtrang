@@ -4,13 +4,13 @@
 html,
 body{
     margin: 0;
+    
 }
 *{
     font-family: "Inter Tight", sans-serif; //"Be Vietnam Pro"
     padding:0;
     margin:0;
-   // background: #f1c3ca;
-    background: rgb(255 247 245);
+    //background-color: rgb(255, 247, 245);
 }
 
 .container{
@@ -19,6 +19,8 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
+    
+    
 }
 .container_footer_bottom{
     max-width: 1199px; 
@@ -26,7 +28,8 @@ body{
     padding-left: 2px;
     padding-right: 2px;
     margin: auto;
-    background: #18aa59;
+    background:  #096331; 
+    
 }
 .row{
     display: flex;
@@ -58,7 +61,7 @@ body{
     font-weight: 800;
     text-transform: uppercase;
     display: inline-block;
-    padding: 16px 30xp 17px;
+    padding: 16px 30px 17px;
     background: #6cb6e8;
     border: none;
     height: 100%;
