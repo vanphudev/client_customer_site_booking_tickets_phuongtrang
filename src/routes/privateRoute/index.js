@@ -1,7 +1,6 @@
 import React from "react";
 import LayoutDashboard from "../../layouts/layoutPageShared/layoutDashbroad";
 import Home from "../../pages/home";
-import Schedule from "../../pages/lich-trinh";
 // Hello mọi người
 const PrivateRoutes = [
    {
