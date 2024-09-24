@@ -1,10 +1,10 @@
 import React from "react";
-
+import { WrapperTypeImg } from "../layouts/HeaderComponent/style";
 const Home = () => {
    return (
-      <div>
-         <h1>Nội dung Trang home - Home</h1>
-      </div>
+      <WrapperTypeImg>
+        <img src="https://cdn.futabus.vn/futa-busline-web-cms-prod/web_ca16250b69/web_ca16250b69.png" alt="Image" />
+      </WrapperTypeImg>
    );
 };
 
