@@ -23,7 +23,7 @@ const Contact = () => {
   const defaultOption1 = options1[0];
   const [value1, setValue1] = useState(defaultOption1);
 
-  // Button
+  // Button nofication
   const [name, setName] = useState('');
   const [isNameTouched, setIsNameTouched] = useState(false);
 
