@@ -1,7 +1,7 @@
 import React from "react";
 import LayoutDashboard from "../../layouts/layoutPageShared/layoutDashbroad";
 import Home from "../../pages/home";
-
+// Hello mọi người
 const PrivateRoutes = [
    {
       path: process.env.REACT_APP_PAGE_PATH_HOME_FIRST,

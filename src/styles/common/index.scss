@@ -39,6 +39,7 @@ $text-blue-color-branch: #273581; // Dùng cho màu chữ - Xanh dương
    --text-gray-color-400: #bdbdbd; // Dùng cho màu chữ - Xám
    --text-gray-color-600: #637280; // Dùng cho màu chữ - Xám
    --text-blue-color-branch: #273581; // Dùng cho màu chữ - Xanh dương
+   --text-red-color: #f87f50;
 }
 
 :root {
@@ -73,11 +74,12 @@ html {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   background-color: var(--bg-white);
+   //background-color: var(--bg-white) !important;
 }
 
 body {
    overflow: overlay;
+
 }
 
 * {
@@ -85,7 +87,7 @@ body {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   background-color: var(--bg-white);
+   //background-color: var(--bg-white);
 }
 
 // Scrollbar style.
