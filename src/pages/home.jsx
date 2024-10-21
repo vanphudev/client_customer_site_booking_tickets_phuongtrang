@@ -1,10 +1,10 @@
 import React from "react";
-
+import ContainerSearch from "../features/home/homeSearchRoutes/components/containerSearch";
 const Home = () => {
    return (
-      <div>
-         <h1>Nội dung Trang home - Home</h1>
-      </div>
+      <>
+         <ContainerSearch />
+      </>
    );
 };
 

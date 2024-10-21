@@ -9,7 +9,7 @@ import BookingTicketManager from "../../pages/tra-cuu-ve";
 import News from "../../pages/tin-tuc";
 import BookingTicket from "../../pages/dat-ve";
 import Payment from "../../pages/thanh-toan";
-import NotFound from "../../pages/notFound";
+// import NotFound from "../../pages/notFound";
 
 const PublicRoutes = [
    {
@@ -56,10 +56,10 @@ const PublicRoutes = [
             path: process.env.REACT_APP_PAGE_PATH_PAYMENT,
             element: <Payment />,
          },
-         {
-            path: process.env.REACT_APP_PAGE_PATH_PAYMENT,
-            element: <NotFound />,
-         },
+         // {
+         //    path: process.env.REACT_APP_PAGE_PATH_PAYMENT,
+         //    element: <NotFound />,
+         // },
       ],
    },
    {

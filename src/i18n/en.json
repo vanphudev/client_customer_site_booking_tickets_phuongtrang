@@ -1,0 +1,31 @@
+{
+   "header": {
+      "title": "Website Title",
+      "menu": {
+         "home": "Home",
+         "about": "About Us",
+         "contact": "Contact"
+      }
+   },
+   "footer": {
+      "contact": "Contact us at: email@example.com",
+      "copyright": "© 2024 Your Company"
+   },
+   "home": {
+      "welcome": "Welcome to our website!",
+      "description": "This is the homepage description."
+   },
+   "about": {
+      "title": "About Us",
+      "content": "This page contains information about our company."
+   },
+   "contact": {
+      "title": "Contact Us",
+      "form": {
+         "name": "Name",
+         "email": "Email",
+         "message": "Message",
+         "submit": "Send Message"
+      }
+   }
+}

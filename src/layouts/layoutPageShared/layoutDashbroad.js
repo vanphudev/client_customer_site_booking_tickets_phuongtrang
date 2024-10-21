@@ -2,8 +2,6 @@ import React from "react";
 import {Outlet} from "react-router-dom";
 
 const LayoutDashboard = () => {
-   console.log("LayoutDashboard");
-
    return (
       <>
          {/* Đây là  Component Header */}

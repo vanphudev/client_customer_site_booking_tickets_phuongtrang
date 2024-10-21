@@ -1,0 +1,31 @@
+{
+   "header": {
+      "title": "Tiêu đề Website",
+      "menu": {
+         "home": "Trang Chủ",
+         "about": "Về Chúng Tôi",
+         "contact": "Liên Hệ"
+      }
+   },
+   "footer": {
+      "contact": "Liên hệ với chúng tôi qua: email@example.com",
+      "copyright": "© 2024 Công Ty Của Bạn"
+   },
+   "home": {
+      "welcome": "Chào mừng đến với trang web của chúng tôi!",
+      "description": "Đây là mô tả của trang chủ."
+   },
+   "about": {
+      "title": "Về Chúng Tôi",
+      "content": "Trang này chứa thông tin về công ty của chúng tôi."
+   },
+   "contact": {
+      "title": "Liên Hệ Với Chúng Tôi",
+      "form": {
+         "name": "Tên",
+         "email": "Email",
+         "message": "Tin Nhắn",
+         "submit": "Gửi Tin Nhắn"
+      }
+   }
+}
