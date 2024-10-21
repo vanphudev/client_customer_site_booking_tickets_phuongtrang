@@ -39,6 +39,34 @@ $text-blue-color-branch: #273581; // Dùng cho màu chữ - Xanh dương
    --text-gray-color-400: #bdbdbd; // Dùng cho màu chữ - Xám
    --text-gray-color-600: #637280; // Dùng cho màu chữ - Xám
    --text-blue-color-branch: #273581; // Dùng cho màu chữ - Xanh dương
+   --text-red-color: #f87f50;
+}
+
+:root {
+   --ant-primary-color: rgb(239, 82, 34);
+   --ant-primary-color-disabled: #ffdbc7;
+   --ant-primary-color-hover: #fc7b4c;
+   --ant-primary-color-active: #a32107;
+   --ant-primary-color-outline: rgba(239, 82, 34, 0.2);
+   --ant-primary-color-deprecated-bg: #ffdbc7;
+   --ant-primary-color-deprecated-border: #ff9f75;
+   --ant-primary-1: #fff6f0;
+   --ant-primary-2: #ffdbc7;
+   --ant-primary-3: #ffbe9e;
+   --ant-primary-4: #ff9f75;
+   --ant-primary-5: #fc7b4c;
+   --ant-primary-6: #ef5222;
+   --ant-primary-7: #c93712;
+   --ant-primary-8: #a32107;
+   --ant-primary-9: #7d1100;
+   --ant-primary-10: #570900;
+   --ant-primary-color-deprecated-l-35: rgb(251, 212, 200);
+   --ant-primary-color-deprecated-l-20: rgb(246, 156, 129);
+   --ant-primary-color-deprecated-t-20: rgb(242, 117, 78);
+   --ant-primary-color-deprecated-t-50: rgb(247, 169, 145);
+   --ant-primary-color-deprecated-f-12: rgba(239, 82, 34, 0.12);
+   --ant-primary-color-active-deprecated-f-30: rgba(255, 246, 240, 0.3);
+   --ant-primary-color-active-deprecated-d-02: rgb(255, 240, 230);
 }
 
 html {
@@ -46,11 +74,12 @@ html {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   background-color: var(--bg-white);
+   //background-color: var(--bg-white) !important;
 }
 
 body {
    overflow: overlay;
+
 }
 
 * {
@@ -58,7 +87,7 @@ body {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   background-color: var(--bg-white);
+   //background-color: var(--bg-white);
 }
 
 // Scrollbar style.

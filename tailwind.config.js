@@ -1,11 +1,11 @@
 module.exports = {
-   prefix: "tws-",
    content: ["./src/**/*.{js,jsx,ts,tsx}"],
    theme: {
       screens: {
          sm: "480px",
          md: "768px",
          lg: "976px",
+         "2lg": "1100px",
          xl: "1440px",
       },
       colors: {
